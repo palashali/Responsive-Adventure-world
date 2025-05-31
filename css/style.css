@@ -98,7 +98,7 @@ margin-left: 60px;
 
 .banner h4 {
     margin: 0;
-    padding: 0px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
     font-size: 30px;
     font-family: sans-serif;
     font-style: italic;
@@ -342,6 +342,10 @@ footer h4{
 
 @media only screen and (max-width:600px) {
 
+
+
+
+
     h1 {
     font-size: 20px;
 }
@@ -358,19 +362,19 @@ body{
 
 header {
 
-    min-height: 65vh;
+    min-height: 60vh;
     min-width: 50vh;
 
 }
 .logo h4{
     margin: 0px auto;
 text-align: center;
-    padding: 20px 0px;
+    padding: 25px 0px;
 
 }
 
 .navbar {
-    margin: 10px;
+    margin: 0px;
 
     display: block;
 
@@ -393,12 +397,22 @@ padding: 10px;
     margin: 0px auto;
 }
 
+.wonderful{
+    padding: 15px;
+
+}
+
 
 .banner{
     padding: 10px;
 }
 
+.banner span {
 
+height: 4px;
+width: 200px;
+
+}
 
 /* upcaming evat */
 
@@ -408,7 +422,7 @@ padding: 10px;
 
 .banner2{
 
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 
@@ -422,6 +436,7 @@ padding: 10px;
 }
 .banner2 span{
 margin-top: -10px;
+
 }
 
 
@@ -433,6 +448,7 @@ margin-top: -10px;
 
 
 .evant{
+    margin: 35px 0px 0px 0px;
     padding: 10px;
 }
 
@@ -448,6 +464,9 @@ margin-top: -10px;
     font-size: 20px;
 
 }
+
+
+
 
 .evant h3{
     margin: 50px 0px 10px 0px;
@@ -468,8 +487,9 @@ margin-top: -10px;
 
 
 .explore-pareant{
+    margin: 25px 0px 0px 0px;
     display: block;
-    padding: 30px 30px 30px 30px;
+    padding: 50px 30px 30px 30px;
     column-gap: 10px;
 }
 .explore{
